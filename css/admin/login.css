@@ -1,0 +1,83 @@
+*{font-size:100%} 
+html,body {margin:0;padding:0;height:100%; }
+div, span, applet, object, iframe,
+blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        background: transparent;
+}
+h1 {
+        font-size: 2.3em;
+        font-weight: normal;
+        margin: 0; padding: 0;
+}
+.clear{clear:both;font-size:0;overflow:hidden}
+body{color:#000;font-family:Arial,sans-serif;line-height:1.4;background-color:#fff}
+a{color:#007ac2}
+a:hover, a:focus{color:#00adef!important}
+.head {
+        background: url('/images/admin/login/head.jpg') 0 0 no-repeat;
+        width: 428px;
+        height: 14px;
+}
+.body {
+        background: url('/images/admin/login/body.jpg') 0 0 repeat-y;
+}
+.foot {
+        background: url('/images/admin/login/foot.jpg') 0 0 no-repeat;
+        height: 15px;
+}
+.form {
+/*        margin: 0px 10px 0 10px;*/
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+}
+div.form label.login, div.form label.password {
+        font-size: 1em;
+        font-weight: normal;
+        color: #777777;
+}
+div.row {
+        text-align: left;
+        
+}
+h1.title {
+        margin-left: 30px;
+        padding-top: 20px;
+}
+p.explanation {
+        margin: 0; padding: 0;
+        color: #777777;
+        font-size: 0.9em;
+        margin-left: 10px;
+}
+input.login, input.password {
+        width: 375px;
+        border: 1px solid #bbb;
+        padding: 5px 5px 5px 5px;
+        background-color: #f9f9f9;
+}
+input.login:focus, input.login:hover, input.password:focus, input.password:hover {
+        background-color: #fff;
+}
+input.login, input.password {border:#bbb 1px solid; transition: all 0.30s ease-in-out;-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;outline:none;}
+input.login:focus, input.password:focus {
+border:#35a5e5 1px solid;
+box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+

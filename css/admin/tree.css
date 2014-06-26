@@ -1,0 +1,27 @@
+.treetable tr th, .treetable tr td {
+    font-size: 14px;
+}
+.treetable tr th {
+    background: url('/images/admin/treeTable/bg.gif') 0 0 repeat-x;
+    color: white;
+    
+    text-align: center;
+}
+.treetable tr.even
+{
+    background-color: #F8F8F8;
+}
+
+.treetable tr.odd
+{
+    background-color: #E5F1F4;
+}
+.treetable tr.selected
+{
+	background: #BCE774;
+}
+
+.treetable tr:hover
+{
+	background: #ECFBD4;
+}
